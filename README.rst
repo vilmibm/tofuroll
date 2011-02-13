@@ -7,7 +7,7 @@ Example
 
 greetings.py::
 
-    from tofuroll import *
+    from tofuroll.tofuroll import *
     
     class app(TofuApp):
         @command
