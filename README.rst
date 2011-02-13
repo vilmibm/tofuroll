@@ -20,7 +20,6 @@ greetings.py::
         @option
         def name(self):
             return {
-                'name' : 'name',
                 'help' : "someone's name"
             }
 
