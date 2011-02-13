@@ -1,4 +1,4 @@
-from tofuroll import *
+from tofuroll.tofuroll import *
 
 class app(TofuApp):
     @command
@@ -11,7 +11,6 @@ class app(TofuApp):
     @option
     def name(self):
         return {
-            'name' : 'name',
             'help' : "someone's name"
         }
 
