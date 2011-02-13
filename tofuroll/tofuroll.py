@@ -59,7 +59,7 @@ class TofuApp:
         for opt_method in fnames:
             opt_method = getattr(self, opt_method)
             option     = opt_method()
-            name       = option['name']
+            name       = opt_method.__name__.replace('option_', '')
             help       = option['help']
             long_name  = "--%s" % name
             short_name = "-%s" % name[0]
