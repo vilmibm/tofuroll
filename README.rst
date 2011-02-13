@@ -1,7 +1,6 @@
 Tofu Roll
 =========
-
-    A simple framework for building command line tools.
+A simple framework for building command line tools.
 
 Example
 -------
