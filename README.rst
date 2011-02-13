@@ -34,6 +34,10 @@ on the command line::
     $: python greetings.py hi -n nate
     Hi, nate
 
+Installation
+------------
+pip install tofuroll
+
 Why?
 ----
 When I was working on the second version of Done_ I wrote a bunch of code to
